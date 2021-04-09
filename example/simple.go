@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rfyiamcool/gomtr/mtr"
-	"github.com/rfyiamcool/gomtr/ping"
+	"github.com/599259501/gomtr/mtr"
+	"github.com/599259501/gomtr/ping"
 )
 
 var (

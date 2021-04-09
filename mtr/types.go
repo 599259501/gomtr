@@ -16,7 +16,7 @@ package mtr
 import (
 	"time"
 
-	"github.com/rfyiamcool/gomtr/common"
+	"github.com/599259501/gomtr/common"
 )
 
 const DEFAULT_MAX_HOPS = 30

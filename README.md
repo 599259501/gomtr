@@ -36,7 +36,7 @@ gomtr Requires `Go >= 1.12`
 **install command**
 
 ```bash
-go get -u -v github.com/rfyiamcool/gomtr
+go get -u -v github.com/599259501/gomtr
 ```
 
 **local build**

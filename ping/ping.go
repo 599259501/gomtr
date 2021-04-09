@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rfyiamcool/gomtr/common"
-	"github.com/rfyiamcool/gomtr/icmp"
-	"github.com/rfyiamcool/gomtr/spew"
+	"github.com/599259501/gomtr/common"
+	"github.com/599259501/gomtr/icmp"
+	"github.com/599259501/gomtr/spew"
 )
 
 func Ping(addr string, count, timeout, interval int) (result string, err error) {

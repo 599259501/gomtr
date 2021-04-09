@@ -10,7 +10,7 @@ import (
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 
-	"github.com/rfyiamcool/gomtr/common"
+	"github.com/599259501/gomtr/common"
 )
 
 const (

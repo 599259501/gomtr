@@ -1,6 +1,6 @@
-module github.com/rfyiamcool/gomtr
+module github.com/599259501/gomtr
 
-go 1.14
+go 1.15
 
 require (
 	github.com/davecgh/go-spew v1.1.1

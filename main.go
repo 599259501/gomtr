@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/rfyiamcool/gomtr/common"
-	"github.com/rfyiamcool/gomtr/mtr"
-	"github.com/rfyiamcool/gomtr/spew"
+	"github.com/599259501/gomtr/common"
+	"github.com/599259501/gomtr/mtr"
+	"github.com/599259501/gomtr/spew"
 )
 
 var (
