@@ -20,7 +20,7 @@ func Mtr(ipAddr string, maxHops, sntSize, timeoutMs int) (result string, err err
 	var out MtrResult
 	var buffer bytes.Buffer
 	buffer.WriteString(fmt.Sprintf("Start: %v, DestAddr: %v\n\n", time.Now().Format("2006-01-02 15:04:05"), ipAddr))
-	out, err = runMtr(ipAddr, &options)
+	out, err = RunMtr(ipAddr, &options)
 	if err != nil {
 		buffer.WriteString(fmt.Sprintf("mtr failed due to an error: %v\n", err))
 		return buffer.String(), err
@@ -112,7 +112,7 @@ func batchDetect(destAddr string, options *MtrOptions) [][]*common.IcmpResp {
 	return resps
 }
 
-func runMtr(destAddr string, options *MtrOptions) (result MtrResult, err error) {
+func RunMtr(destAddr string, options *MtrOptions) (result MtrResult, err error) {
 	result.Hops = []common.IcmpHop{}
 	result.DestAddress = destAddr
 	mtrResults := make([]*MtrReturn, options.MaxHops()+1) // not use first index
